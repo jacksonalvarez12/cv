@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    color: #EEF2E6;
+    background-color: #D6CDA4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+.contact {
+    background-color: #1C6758;
+    padding: 10px;
+}
+
+.heading {
+    background-color: #1C6758;
+}
+
+.skills {
+    background-color: #1C6758;
+}
+
+.footer {
+    background-color: #3D8361;
+}
+
+body div {
+    padding: 10px 20px;
+}
+
+h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    color: #D6CDA4;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+a {
+    color: #E80F88;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f86e38;
+}
+
+button {
+    background-color: #D6CDA4;
+    color: #E80F88;
+}
+
+hr {
+    border-style: outset;
+    border-width: 2px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 22%;
+    gap: 5px;
+    position: absolute;
+    top: 7%;
+    left: 72%;
+}
+
+.images img {
+    border: solid #D6CDA4 2px;
+    border-radius: 10%;
+}
+
+.langs {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.col li {
+    list-style: none;
+    text-align: center;
+}
+
+.lead {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.lead * {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skills-chart {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid rebeccapurple 3px;
+    padding: 0px;
+    margin: 5px;
+}
+
+.footer hr {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.submit {
+    margin: 38px;
+}
+
+
